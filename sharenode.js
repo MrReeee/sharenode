@@ -12,11 +12,11 @@ var config = undefined;
 try {
     config = require(homedir + '/.node-uploader.json');
 } catch(e) {
-    console.error("Could not read config file at " + homedir + "/.node-uploader.json")
-    process.exit(1);
+    console.error("Could not read config file at " + homedir + "/.node-uploader.json");
 }
 
 var dest = (argv.dest||null);
+
 
 if(dest == null)
 {
