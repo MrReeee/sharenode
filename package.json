@@ -1,0 +1,85 @@
+{
+    "_args": [
+      [
+        "sharenode",
+        ""
+      ]
+    ],
+    "_from": "sharenode@latest",
+    "_id": "sharenode@0.0.1",
+    "_inCache": true,
+    "_installable": true,
+    "_location": "/sharenode",
+    "_npmUser": {
+      "email": "MrRee@6697.co.uk",
+      "name": "Mr. Ree"
+    },
+    "_phantomChildren": {},
+    "_requested": {
+      "name": "sharenode",
+      "raw": "sharenode",
+      "rawSpec": "",
+      "scope": null,
+      "spec": "latest",
+      "type": "tag"
+    },
+    "_requiredBy": [
+      "#USER"
+    ],
+    "_shrinkwrap": null,
+    "_spec": "sharenode",
+    "_where": "",
+    "author": {
+      "email": "MrRee@6697.co.uk",
+      "name": "Mr. Ree",
+      "url": "https://users.6697-content.network/~mrree/"
+    },
+    "bin": {
+      "sharenode": "sharenode"
+    },
+    "bugs": {
+      "url": "https://github.com/MrReeee/sharenode/issues"
+    },
+    "dependencies": {
+        "aws-sdk": "^2.590.0",
+        "dateformat": "^3.0.3",
+        "fs": "0.0.1-security",
+        "mime": "^2.4.4",
+        "random-words": "^1.1.0",
+        "yargs": "^15.0.2"
+      },
+    "description": "Command line tool for uploading files to s3 storage",
+    "directories": {},
+    "engines": {
+      "node": ">= 0.4.0"
+    },
+    "homepage": "https://github.com/MrReeee/sharenode",
+    "keywords": [
+      "upload",
+      "s3",
+      "spaces",
+      "cloud"
+    ],
+    "licenses": [
+      {
+        "type": "MIT",
+        "url": "http://www.opensource.org/licenses/MIT"
+      }
+    ],
+    "maintainers": [
+      {
+        "name": "Mr. Ree",
+        "email": "MrRee@6697.co.uk"
+      }
+    ],
+    "name": "sharenode",
+    "optionalDependencies": {},
+    "readme": "# sharenode\n\n>A command line tool for uploading to s3 storage with nodejs.",
+    "readmeFilename": "README.md",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/MrReeee/sharenode"
+    },
+    "scripts": {},
+    "version": "0.0.1"
+  }

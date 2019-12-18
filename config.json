@@ -1,0 +1,14 @@
+{
+    "destinations":{
+        "example":{
+            "endpoint":"ep.example.com",
+            "secretAccessKey":"",
+            "accessKeyId":"",
+            "bucket":"example",
+            "path":"uploads",
+            "useDate": true,
+            "useRandom":false,
+            "url": "https://cdn.example.com"
+        }
+    }
+}
