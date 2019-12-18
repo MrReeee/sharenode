@@ -17,6 +17,13 @@ try {
 }
 
 var dest = (argv.dest||null);
+
+if(dest == null)
+{
+  console.error("Please specify a destination!");
+  process.exit();
+}
+
 var filepath = (argv.file||null);
 var fmimetype = (argv.mimetype||mime.getType(argv.file));
 var destPath = (argv.path||config.destinations[dest].path);
