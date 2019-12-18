@@ -35,7 +35,7 @@
       "url": "https://users.6697-content.network/~mrree/"
     },
     "bin": {
-      "sharenode": "sharenode"
+      "sharenode": "sharenode.js"
     },
     "bugs": {
       "url": "https://github.com/MrReeee/sharenode/issues"

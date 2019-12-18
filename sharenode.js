@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const AWS = require('aws-sdk');
 const argv = require('yargs').argv
 const mime = require('mime');
